@@ -39,3 +39,4 @@
     Record: Mark this move as B
     
     Purpose: Escapes dead ends and continues exploration
+# this method can be slow but will give a guaranteed solution
