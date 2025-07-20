@@ -273,9 +273,9 @@ def main():
         if not goal_reached:
             if robot.has_reached_goal():
                 goal_reached = True
-                print("\n🎉 Success! Robot reached the goal!")
-                print(f"📝 Move sequence: {''.join(robot.move_history)}")
-                print(f"📊 Total steps taken: {len(robot.move_history)}")
+                print("\n Success! Robot reached the goal!")
+                print(f" Move sequence: {''.join(robot.move_history)}")
+                print(f"Total steps taken: {len(robot.move_history)}")
             else:
                 robot.execute_next_step()
                 time.sleep(ANIMATION_DELAY)
